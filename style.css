@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 50vh;
+  width: 50vw;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: #fff;
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul {
+  margin: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+  color: black;
+  text-align: center;
+}
+
+.header-image {
+  display: flex;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-details:after {
+  position: absolute;
+  content: '';
+  background-color: transparent;
+  left: 50%;
+  top: 75.6%;
+  transform: translate(-50%, -50%);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #e8e8e8;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: transform(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+.green-text {
+  color: #00b140;
+  text-transform: uppercase;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.text p {
+  color: white;
+}
+
+.button {
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+}
+
+.button-signup {
+  text-transform: uppercase;
+  color: white;
+  padding: 10px 50px;
+  margin: 10px;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.button-login {
+  color: blue;
+  background-color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #d6d5d9;
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+.header-features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-features-text {
+  column-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+li {
+  margin-bottom: 10px;
+}
